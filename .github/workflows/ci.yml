@@ -33,7 +33,7 @@ jobs:
           npm test -- --coverage
 
       - name: Upload test coverage
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@latest
         with:
           name: test-coverage
           path: backend/coverage
